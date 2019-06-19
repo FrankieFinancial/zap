@@ -24,9 +24,9 @@ import (
 	"errors"
 	"testing"
 
-	"go.uber.org/zap/internal/ztest"
-	. "go.uber.org/zap/zapcore"
-	"go.uber.org/zap/zaptest/observer"
+	"github.com/FrankieFinancial/zap/internal/ztest"
+	. "github.com/FrankieFinancial/zap/zapcore"
+	"github.com/FrankieFinancial/zap/zaptest/observer"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -29,7 +29,7 @@ import (
 	"strings"
 	"sync"
 
-	"go.uber.org/zap/zapcore"
+	"github.com/FrankieFinancial/zap/zapcore"
 )
 
 const schemeFile = "file"
