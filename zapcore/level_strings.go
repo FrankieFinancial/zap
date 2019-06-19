@@ -20,7 +20,7 @@
 
 package zapcore
 
-import "github.com/denmat/zap/internal/color"
+import "github.com/FrankieFinancial/zap/internal/color"
 
 var (
 	_levelToColor = map[Level]color.Color{

@@ -23,7 +23,7 @@ package zapcore_test
 import (
 	"testing"
 
-	. "github.com/denmat/zap/zapcore"
+	. "github.com/FrankieFinancial/zap/zapcore"
 )
 
 func BenchmarkZapConsole(b *testing.B) {

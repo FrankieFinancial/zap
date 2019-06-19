@@ -29,8 +29,8 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/denmat/zap"
-	. "github.com/denmat/zap/zapcore"
+	"github.com/FrankieFinancial/zap"
+	. "github.com/FrankieFinancial/zap/zapcore"
 )
 
 type users int

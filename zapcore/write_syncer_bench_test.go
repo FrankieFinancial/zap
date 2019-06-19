@@ -23,7 +23,7 @@ package zapcore
 import (
 	"testing"
 
-	"github.com/denmat/zap/internal/ztest"
+	"github.com/FrankieFinancial/zap/internal/ztest"
 )
 
 func BenchmarkMultiWriteSyncer(b *testing.B) {

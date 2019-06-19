@@ -23,8 +23,8 @@ package zapcore_test
 import (
 	"testing"
 
-	"github.com/denmat/zap/internal/ztest"
-	. "github.com/denmat/zap/zapcore"
+	"github.com/FrankieFinancial/zap/internal/ztest"
+	. "github.com/FrankieFinancial/zap/zapcore"
 )
 
 func withBenchedTee(b *testing.B, f func(Core)) {

@@ -19,9 +19,9 @@
 // THE SOFTWARE.
 
 // Package zapgrpc provides a logger that is compatible with grpclog.
-package zapgrpc // import "github.com/denmat/zap/zapgrpc"
+package zapgrpc // import "github.com/FrankieFinancial/zap/zapgrpc"
 
-import "github.com/denmat/zap"
+import "github.com/FrankieFinancial/zap"
 
 // An Option overrides a Logger's default configuration.
 type Option interface {

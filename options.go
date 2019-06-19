@@ -20,7 +20,7 @@
 
 package zap
 
-import "github.com/denmat/zap/zapcore"
+import "github.com/FrankieFinancial/zap/zapcore"
 
 // An Option configures a Logger.
 type Option interface {

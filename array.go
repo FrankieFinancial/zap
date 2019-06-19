@@ -23,7 +23,7 @@ package zap
 import (
 	"time"
 
-	"github.com/denmat/zap/zapcore"
+	"github.com/FrankieFinancial/zap/zapcore"
 )
 
 // Array constructs a field with the given key and ArrayMarshaler. It provides

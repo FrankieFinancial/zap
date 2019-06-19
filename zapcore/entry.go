@@ -26,8 +26,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/denmat/zap/internal/bufferpool"
-	"github.com/denmat/zap/internal/exit"
+	"github.com/FrankieFinancial/zap/internal/bufferpool"
+	"github.com/FrankieFinancial/zap/internal/exit"
 
 	"go.uber.org/multierr"
 )

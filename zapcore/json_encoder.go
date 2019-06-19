@@ -28,8 +28,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/denmat/zap/buffer"
-	"github.com/denmat/zap/internal/bufferpool"
+	"github.com/FrankieFinancial/zap/buffer"
+	"github.com/FrankieFinancial/zap/internal/bufferpool"
 )
 
 // For JSON-escaping; see jsonEncoder.safeAddString below.

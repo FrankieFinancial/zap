@@ -25,10 +25,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/denmat/zap/internal/bufferpool"
+	"github.com/FrankieFinancial/zap/internal/bufferpool"
 )
 
-const _zapPackage = "github.com/denmat/zap"
+const _zapPackage = "github.com/FrankieFinancial/zap"
 
 var (
 	_stacktracePool = sync.Pool{

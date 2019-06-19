@@ -24,7 +24,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/denmat/zap/zapcore"
+	"github.com/FrankieFinancial/zap/zapcore"
 
 	richErrors "github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"

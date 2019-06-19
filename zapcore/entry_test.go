@@ -24,7 +24,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/denmat/zap/internal/exit"
+	"github.com/FrankieFinancial/zap/internal/exit"
 
 	"github.com/stretchr/testify/assert"
 )

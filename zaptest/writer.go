@@ -20,7 +20,7 @@
 
 package zaptest
 
-import "github.com/denmat/zap/internal/ztest"
+import "github.com/FrankieFinancial/zap/internal/ztest"
 
 type (
 	// A Syncer is a spy for the Sync portion of zapcore.WriteSyncer.

@@ -25,7 +25,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/denmat/zap/internal/ztest"
+	"github.com/FrankieFinancial/zap/internal/ztest"
 )
 
 func TestTimeout(t *testing.T) {

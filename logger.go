@@ -28,7 +28,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/denmat/zap/zapcore"
+	"github.com/FrankieFinancial/zap/zapcore"
 )
 
 // A Logger provides fast, leveled, structured logging. All methods are safe

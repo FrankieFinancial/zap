@@ -42,18 +42,18 @@ func TestTakeStacktrace(t *testing.T) {
 
 func TestIsZapFrame(t *testing.T) {
 	zapFrames := []string{
-		"github.com/denmat/zap.Stack",
-		"github.com/denmat/zap.(*SugaredLogger).log",
-		"github.com/denmat/zap/zapcore.(ArrayMarshalerFunc).MarshalLogArray",
-		"github.com/uber/tchannel-go/vendor/github.com/denmat/zap.Stack",
-		"github.com/uber/tchannel-go/vendor/github.com/denmat/zap.(*SugaredLogger).log",
-		"github.com/uber/tchannel-go/vendor/github.com/denmat/zap/zapcore.(ArrayMarshalerFunc).MarshalLogArray",
+		"github.com/FrankieFinancial/zap.Stack",
+		"github.com/FrankieFinancial/zap.(*SugaredLogger).log",
+		"github.com/FrankieFinancial/zap/zapcore.(ArrayMarshalerFunc).MarshalLogArray",
+		"github.com/uber/tchannel-go/vendor/github.com/FrankieFinancial/zap.Stack",
+		"github.com/uber/tchannel-go/vendor/github.com/FrankieFinancial/zap.(*SugaredLogger).log",
+		"github.com/uber/tchannel-go/vendor/github.com/FrankieFinancial/zap/zapcore.(ArrayMarshalerFunc).MarshalLogArray",
 	}
 	nonZapFrames := []string{
 		"github.com/uber/tchannel-go.NewChannel",
 		"go.uber.org/not-zap.New",
-		"github.com/denmat/zapext.ctx",
-		"github.com/denmat/zap_ext/ctx.New",
+		"github.com/FrankieFinancial/zapext.ctx",
+		"github.com/FrankieFinancial/zap_ext/ctx.New",
 	}
 
 	t.Run("zap frames", func(t *testing.T) {

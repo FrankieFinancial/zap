@@ -22,7 +22,7 @@
 // packages can recreate the same functionality with buffers.NewPool.
 package bufferpool
 
-import "github.com/denmat/zap/buffer"
+import "github.com/FrankieFinancial/zap/buffer"
 
 var (
 	_pool = buffer.NewPool()

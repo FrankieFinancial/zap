@@ -27,7 +27,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/denmat/zap/zapcore"
+	"github.com/FrankieFinancial/zap/zapcore"
 )
 
 const (

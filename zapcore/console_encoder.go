@@ -24,8 +24,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/denmat/zap/buffer"
-	"github.com/denmat/zap/internal/bufferpool"
+	"github.com/FrankieFinancial/zap/buffer"
+	"github.com/FrankieFinancial/zap/internal/bufferpool"
 )
 
 var _sliceEncoderPool = sync.Pool{

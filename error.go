@@ -23,7 +23,7 @@ package zap
 import (
 	"sync"
 
-	"github.com/denmat/zap/zapcore"
+	"github.com/FrankieFinancial/zap/zapcore"
 )
 
 var _errArrayElemPool = sync.Pool{New: func() interface{} {

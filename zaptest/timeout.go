@@ -23,7 +23,7 @@ package zaptest
 import (
 	"time"
 
-	"github.com/denmat/zap/internal/ztest"
+	"github.com/FrankieFinancial/zap/internal/ztest"
 )
 
 // Timeout scales the provided duration by $TEST_TIMEOUT_SCALE.

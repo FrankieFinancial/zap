@@ -25,7 +25,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/denmat/zap/zapcore"
+	"github.com/FrankieFinancial/zap/zapcore"
 
 	"go.uber.org/multierr"
 )

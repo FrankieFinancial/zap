@@ -25,10 +25,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/denmat/zap/internal/exit"
-	"github.com/denmat/zap/internal/ztest"
-	"github.com/denmat/zap/zapcore"
-	"github.com/denmat/zap/zaptest/observer"
+	"github.com/FrankieFinancial/zap/internal/exit"
+	"github.com/FrankieFinancial/zap/internal/ztest"
+	"github.com/FrankieFinancial/zap/zapcore"
+	"github.com/FrankieFinancial/zap/zaptest/observer"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -25,7 +25,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/denmat/zap"
+	"github.com/FrankieFinancial/zap"
 )
 
 func BenchmarkDisabledWithoutFields(b *testing.B) {

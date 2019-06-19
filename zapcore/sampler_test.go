@@ -26,10 +26,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/FrankieFinancial/zap/internal/ztest"
+	"github.com/FrankieFinancial/zap/zaptest/observer"
 	"go.uber.org/atomic"
-	"github.com/denmat/zap/internal/ztest"
-	. "github.com/denmat/zap/zapcore"
-	"github.com/denmat/zap/zaptest/observer"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

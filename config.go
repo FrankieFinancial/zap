@@ -24,7 +24,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/denmat/zap/zapcore"
+	"github.com/FrankieFinancial/zap/zapcore"
 )
 
 // SamplingConfig sets a sampling strategy for the logger. Sampling caps the

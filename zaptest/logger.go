@@ -23,8 +23,8 @@ package zaptest
 import (
 	"bytes"
 
-	"github.com/denmat/zap"
-	"github.com/denmat/zap/zapcore"
+	"github.com/FrankieFinancial/zap"
+	"github.com/FrankieFinancial/zap/zapcore"
 )
 
 // LoggerOption configures the test logger built by NewLogger.

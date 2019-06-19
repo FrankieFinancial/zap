@@ -23,8 +23,8 @@ package zapcore_test
 import (
 	"testing"
 
-	. "github.com/denmat/zap/zapcore"
-	"github.com/denmat/zap/zaptest/observer"
+	"github.com/FrankieFinancial/zap/zapcore"
+	"github.com/FrankieFinancial/zap/zaptest/observer"
 
 	"github.com/stretchr/testify/assert"
 )

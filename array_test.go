@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/denmat/zap/zapcore"
+	"github.com/FrankieFinancial/zap/zapcore"
 
 	"github.com/stretchr/testify/assert"
 )
